@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-#define LED_RED 16
+const int LED_RED = 16;
 const int buttonPin = 2;
 
 void setup() {
